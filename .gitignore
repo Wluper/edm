@@ -1,0 +1,7 @@
+.idea
+.Idea
+.DS_Store
+*.pyc
+__pycache__
+test_bb.py
+difficultyanalysis.egg-info
