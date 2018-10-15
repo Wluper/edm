@@ -8,31 +8,19 @@ In the paper of the corresponding name, we discuss how we used an evolutionary a
 
 ## Installation
 
-This code is pip-installable so can be installed on your machine by changing into the top-level directory of this code (where the `setup.py` file is located) and running: 
+This code is pip-installable so can be installed on your machine by running:
 
-`pip3 install .` 
+`pip3 install edm`
 
 The code requires Python 3 and NumPy.
 
-It is strongly recommended that you install this code in a `virtualenv`:
+It is recommended that you install this code in a `virtualenv`:
 
 ```commandline
-$ ls
-edm/
 $ mkdir myvirtualenv/
 $ virtualenv -p python3 myvirtualenv/
-$ mv edm/ myvirtualenv/
-$ cd myvirtualenv/
 $ source bin/activate
-(myvirtualenv) $ cd edm/
-(myvirtualenv) $ ls
-edm/
-.gitignore
-LICENSE
-README.md
-setup.py
-(myvirtualenv) $ pip3 install .
-
+(myvirtualenv) $ pip3 install edm
 ```
 
 ## Running

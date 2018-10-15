@@ -4,4 +4,6 @@
 *.pyc
 __pycache__
 test_bb.py
-difficultyanalysis.egg-info
+edm.egg-info
+build
+dist
