@@ -7,3 +7,4 @@ test_bb.py
 edm.egg-info
 build
 dist
+dist_dep
