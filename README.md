@@ -55,7 +55,7 @@ Classification_ by Xiang Zhang, Junbo Zhao and Yann LeCun, 2015 which contains 3
 ## Citation
 
 The official citation from CoNLL 2018 in Belgium. Please use this for citation:
-
+```
 @inproceedings{collins-etal-2018-evolutionary,
     title = "Evolutionary Data Measures: Understanding the Difficulty of Text Classification Tasks",
     author = "Collins, Edward  and
@@ -71,3 +71,4 @@ The official citation from CoNLL 2018 in Belgium. Please use this for citation:
     pages = "380--391",
     abstract = "Classification tasks are usually analysed and improved through new model architectures or hyperparameter optimisation but the underlying properties of datasets are discovered on an ad-hoc basis as errors occur. However, understanding the properties of the data is crucial in perfecting models. In this paper we analyse exactly which characteristics of a dataset best determine how difficult that dataset is for the task of text classification. We then propose an intuitive measure of difficulty for text classification datasets which is simple and fast to calculate. We empirically prove that this measure generalises to unseen data by comparing it to state-of-the-art datasets and results. This measure can be used to analyse the precise source of errors in a dataset and allows fast estimation of how difficult a dataset is to learn. We searched for this measure by training 12 classical and neural network based models on 78 real-world datasets, then use a genetic algorithm to discover the best measure of difficulty. Our difficulty-calculating code and datasets are publicly available.",
 }
+```
