@@ -1,3 +1,5 @@
+[![Wluper](https://wluper.com/content/themes/main/static/gfx/wluper_logo.png)](https://wluper.com/)     
+
 # Evolutionary Data Measures: Understanding the Difficulty of Text Classification Tasks
 
 **Authors:** _Ed Collins, Nikolai Rozanov, Bingbing Zhang_
