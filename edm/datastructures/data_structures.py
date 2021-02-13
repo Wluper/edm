@@ -178,7 +178,7 @@ def _loading_bar(count, numSections, total, startTime):
     """
     Prints a loading bar.
     """
-    numPerSection = int(total / numSections)
+    numPerSection = min(1, int(total / numSections))
 
     sections = 0
     i = 0
